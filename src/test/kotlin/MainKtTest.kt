@@ -10,7 +10,7 @@ internal class MainKtTest {
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(33, percentage)
+        assertEquals(33.33, percentage)
     }
 
     @Test
@@ -20,7 +20,7 @@ internal class MainKtTest {
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(100, percentage)
+        assertEquals(100.0, percentage)
     }
 
     @Test
@@ -30,7 +30,7 @@ internal class MainKtTest {
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(-1, percentage)
+        assertEquals(-1.0, percentage)
     }
 
     @Test
@@ -40,7 +40,7 @@ internal class MainKtTest {
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(-1, percentage)
+        assertEquals(-1.0, percentage)
     }
 
     @Test
@@ -50,7 +50,7 @@ internal class MainKtTest {
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(-1, percentage)
+        assertEquals(-1.0, percentage)
     }
 
     @Test
@@ -60,7 +60,7 @@ internal class MainKtTest {
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(-1, percentage)
+        assertEquals(-1.0, percentage)
     }
 
     @Test
@@ -70,7 +70,7 @@ internal class MainKtTest {
         //when calculate the PercentageOfA
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
-        assertEquals(-1, percentage)
+        assertEquals(-1.0, percentage)
     }
 
 }
