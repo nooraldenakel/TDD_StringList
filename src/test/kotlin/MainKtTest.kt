@@ -76,7 +76,7 @@ internal class MainKtTest {
     @Test
     fun should_ReturnMinus1_When_WhenTheListHaveCapitalCharacter() {
         //given list have a Capital Character
-        val listValue = listOf<String>()
+        val listValue = listOf<String>("A","a","a")
         //when calculate the PercentageOfA
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
