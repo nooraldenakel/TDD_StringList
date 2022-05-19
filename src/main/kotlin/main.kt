@@ -1,5 +1,7 @@
+import kotlin.math.pow
+
 fun main() {
-    println(findCharacterPercentageInList(listOf("a","b","b")))
+    println(findCharacterPercentageInList(listOf("A", "a", "a")))
 }
 
 fun findCharacterPercentageInList(list: List<String>): Double {
@@ -11,4 +13,5 @@ fun findCharacterPercentageInList(list: List<String>): Double {
         -1.0
     }
 }
+
 
