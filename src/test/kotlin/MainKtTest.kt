@@ -46,7 +46,7 @@ internal class MainKtTest {
     @Test
     fun should_ReturnMinus1_When_TheListIsNotContainA_B() {
         //given List Not Contain A and B
-        val listValue = listOf("s","e","x")
+        val listValue = listOf("l","k","n")
         //when calculate the Percentage Of A
         val percentage = findCharacterPercentageInList(listValue)
         //then check the Percentage Of A
